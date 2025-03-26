@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html Lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <title>Ejercicio con div</title>
+    <style>
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            border: 1px solid #000;
+        }
+    
+        .header, .footer {
+            background-color: hsl(241, 100%, 74%);
+            padding: 20px;
+            text-align: center;
+        }
+    
+        .content {
+            display: flex;
+        }
+    
+        .sidebar {
+            width: 25%;
+            background-color: hsl(66, 100%, 82%);
+            padding: 20px;
+        }
+    
+        .main {
+            width: 60%;
+            padding: 20rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> Mi pagina </h1>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Menu</h2>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Acerca de</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            <div class="main">
+                <h2>Contenido principal</h2>
+                    <p>Bienvenido a mi pagina web. Aqui encontraras infortmacion interesante. </p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Derechos reservados &copy; 2025 </p>
+        </div>
+    </div>
+</body>
+</html>
